@@ -64,46 +64,467 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-方法" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2020/10/11/hello-world/" class="article-date">
-  <time datetime="2020-10-11T06:44:45.039Z" itemprop="datePublished">2020-10-11</time>
+    <a href="/2020/07/25/%E6%96%B9%E6%B3%95/" class="article-date">
+  <time datetime="2020-07-25T15:01:10.000Z" itemprop="datePublished">2020-07-25</time>
 </a>
     
   </div>
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/10/11/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+        <h1 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h1><hr>
+<ul>
+<li><p>方法名称的命名规则和变量一样，是小驼峰式。</p>
+</li>
+<li><p>注意事项</p>
+</li>
+</ul>
+<ol>
+<li>方法定义的先后顺序无所谓</li>
+<li>方法的定义不能嵌套包含</li>
+<li>方法定义之后不会执行，想要执行就要调用。</li>
+</ol>
+<ul>
+<li>如何调用方法</li>
+<li>*格式：  方法名称（）；**</li>
+</ul>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2020/10/11/hello-world/" data-id="ckg4r7si90000mtjldnnr5om8" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2020/07/25/%E6%96%B9%E6%B3%95/" data-id="ckgaps4zw000fdojldpzhb94g" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-# 三元运算符" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/07/25/#%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/" class="article-date">
+  <time datetime="2020-07-25T14:30:57.000Z" itemprop="datePublished">2020-07-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="三元运算符"><a href="#三元运算符" class="headerlink" title="三元运算符"></a>三元运算符</h1><hr>
+<p>一元运算符：只有一个数据就可以运算，例如：++、–、！<br>二元运算符：两个数据才可以进行操作，例如：+、-、*、/、%、=<br>三元运算符：三个数据才能操作</p>
+<p>格式：<br>数据类型 变量名 = 条件判断 ？ 表达式A ： 表达式B；</p>
+<p>流程：<br>首先判断条件是否成立<br>如果为true，则把A赋给变量<br>如果为false，把B赋给变量</p>
+<p>注意事项：<br><strong>1. A、B必须符合左侧数据类型的要求</strong><br><strong>2. 三元运算的结果必须被使用：可以直接打印或交给一个变量</strong></p>
+<hr>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo10perator</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">		<span class="keyword">int</span> b = <span class="number">20</span>;</span><br><span class="line">		</span><br><span class="line">		<span class="comment">//选择最大值</span></span><br><span class="line">		<span class="keyword">int</span> max  = a &gt; b ? a : b;</span><br><span class="line">		System.out.println(<span class="string">&quot;最大值&quot;</span> + max);</span><br><span class="line">		System.out.println(<span class="string">&quot;最大值&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>输出结果：<br>最大值20<br>最大值</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/07/25/#%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/" data-id="ckgaps4zg0004dojl8mrnhnq5" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-# 逻辑运算符" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/07/25/#%20%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6/" class="article-date">
+  <time datetime="2020-07-25T10:15:43.000Z" itemprop="datePublished">2020-07-25</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h1><hr>
+<p>与 （并且）：&amp;&amp; –&gt; 全都是true才是true,否则就是false<br>或 （或者）：|| –&gt; 至少一个ture,就是true,全是false，才是false<br>非 （取反）：! –&gt;本来是false变true，本来是true变false</p>
+<p><strong>与“&amp;&amp;”，或“||”，具有短路效果，如果左边已经得到结果，那么右边的代码就不执行了</strong></p>
+<p>注意事项</p>
+<ol>
+<li>逻辑运算符只能用于boolean值</li>
+<li>与、或左右都要有值，取反只要有一个值</li>
+<li>与、或有多个条件时可以连着写<br> 例如：A &amp;&amp; B &amp;&amp; C</li>
+</ol>
+<hr>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo09Logic</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		System.out.println(<span class="keyword">true</span> &amp;&amp; <span class="keyword">false</span>);<span class="comment">//false</span></span><br><span class="line">		</span><br><span class="line">		System.out.println(<span class="keyword">true</span> &amp;&amp; <span class="keyword">true</span>);<span class="comment">//true</span></span><br><span class="line">		</span><br><span class="line">		System.out.println(<span class="keyword">true</span> || <span class="keyword">false</span>);<span class="comment">//true</span></span><br><span class="line">		System.out.println(<span class="keyword">true</span> || <span class="keyword">true</span>);<span class="comment">//true</span></span><br><span class="line">		System.out.println(<span class="keyword">false</span> || <span class="keyword">false</span>);<span class="comment">//false</span></span><br><span class="line">		</span><br><span class="line">		System.out.println(! <span class="keyword">true</span>);<span class="comment">//false</span></span><br><span class="line">		</span><br><span class="line">		<span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">		System.out.println(<span class="number">3</span> &gt;<span class="number">4</span> &amp;&amp; ++a &lt; <span class="number">100</span>);</span><br><span class="line">		System.out.println(a);<span class="comment">//10</span></span><br><span class="line">		</span><br><span class="line">		<span class="keyword">int</span> b = <span class="number">20</span>;</span><br><span class="line">		System.out.println(<span class="number">3</span> &lt; <span class="number">4</span> || ++b &lt; <span class="number">100</span>);<span class="comment">//true</span></span><br><span class="line">		System.out.println(b);<span class="comment">//20</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>输出结果<br>false<br>true<br>true<br>true<br>false<br>false<br>false<br>10<br>true<br>20</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/07/25/#%20%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6/" data-id="ckgaps4zi0006dojlgxj4ffy4" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-# 赋值运算符" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/07/24/#%20%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6/" class="article-date">
+  <time datetime="2020-07-24T15:54:04.000Z" itemprop="datePublished">2020-07-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h1><hr>
+<p>赋值运算符：=、+=、-=、*=、/=、%=</p>
+<p>注意事项：</p>
+<ol>
+<li>只有变量才能赋值，常量不能赋值</li>
+<li>复合赋值运算符中包含了强制类型转换</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo07Operator</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span> a = <span class="number">10</span>;</span><br><span class="line">		a += <span class="number">5</span>;</span><br><span class="line">		System.out.println(a);</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">int</span> x = <span class="number">10</span>;</span><br><span class="line">		x %= <span class="number">3</span>;</span><br><span class="line">		System.out.println(x);<span class="comment">//1</span></span><br><span class="line">		</span><br><span class="line">		<span class="keyword">byte</span> num = <span class="number">30</span>;</span><br><span class="line">		<span class="comment">//num = num + 5;</span></span><br><span class="line">		<span class="comment">//num = byte + int;</span></span><br><span class="line">		<span class="comment">//num = int  + int;</span></span><br><span class="line">		<span class="comment">//num = int;</span></span><br><span class="line">		<span class="comment">//num = (byte) int;</span></span><br><span class="line">		num += <span class="number">5</span>;</span><br><span class="line">		System.out.println(num);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>运行结果<br>15<br>1<br>35</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/07/24/#%20%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6/" data-id="ckgaps4zh0005dojlc5r9c3qu" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-# 自增和自减" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/07/24/#%20%E8%87%AA%E5%A2%9E%E5%92%8C%E8%87%AA%E5%87%8F/" class="article-date">
+  <time datetime="2020-07-24T14:18:51.000Z" itemprop="datePublished">2020-07-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="自增和自减"><a href="#自增和自减" class="headerlink" title="自增和自减"></a>自增和自减</h1><hr>
+<p>自增运算符：++<br>自减运算符：–</p>
+<p>含义：让一个数字涨一，或降一<br>使用格式：可以写在变量名之前或之后l<br>    例如：num++;++num<br>使用方式：<br>    1. 单独使用：不和其他操作使用，自己独立为一步<br>    2. 单独使用：和其它操作混合，例如：与赋值混合，与打印操作混合<br>两种方式的区别：<br>    1.单独使用时：前++和后++没有区别<br>    2. 混合使用时：有重大区别<br>        A. 如果是++num，那么变量立刻+1，然后拿着结果使用<br>        B. 如果是num++，那么使用变量本来的数值，然后+1<br>注意事项：<br>    <strong>只有变量才能使用自增和自减，常量不能发生改变</strong></p>
+<hr>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo06perator</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">int</span> num1 = <span class="number">10</span>;</span><br><span class="line">		System.out.println(num1);</span><br><span class="line">		</span><br><span class="line">		++num1;<span class="comment">//前++,单独使用</span></span><br><span class="line">		System.out.println(num1);</span><br><span class="line">		</span><br><span class="line">		num1++;<span class="comment">//后++</span></span><br><span class="line">		System.out.println(num1);</span><br><span class="line">		</span><br><span class="line">		<span class="comment">//与打印语句一起使用</span></span><br><span class="line">		<span class="keyword">int</span> num2 = <span class="number">20</span>;</span><br><span class="line">		System.out.println(++num2);<span class="comment">//混合使用，前++</span></span><br><span class="line">		System.out.println(num2);</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">int</span> num3 = <span class="number">30</span>;</span><br><span class="line">		System.out.println(num3++);<span class="comment">//先使用变量本来的值30，用于输出，然后再+1，num变为31</span></span><br><span class="line">		System.out.println(num3);</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">int</span> num4 = <span class="number">40</span>;</span><br><span class="line">		<span class="keyword">int</span> result1 = --num4;<span class="comment">//和赋值语句一起使用</span></span><br><span class="line">		System.out.println(result1);</span><br><span class="line">		System.out.println(num4);</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">int</span> num5 = <span class="number">50</span>;</span><br><span class="line">		<span class="keyword">int</span> result2 = num5--;<span class="comment">//先把num5本身的值50赋给他，然后自己再减一</span></span><br><span class="line">		System.out.println(result2);</span><br><span class="line">		System.out.println(num5);</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">int</span> x = <span class="number">10</span>;</span><br><span class="line">		<span class="keyword">int</span> y = <span class="number">20</span>;</span><br><span class="line">		<span class="keyword">int</span> result3 = ++x + y--;</span><br><span class="line">		System.out.println(result3);<span class="comment">//31</span></span><br><span class="line">		System.out.println(x);<span class="comment">//11</span></span><br><span class="line">		System.out.println(y);<span class="comment">//19</span></span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>运行结果<br>10<br>11<br>12<br>21<br>21<br>30<br>31<br>39<br>39<br>50<br>49<br>31<br>11<br>19</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/07/24/#%20%E8%87%AA%E5%A2%9E%E5%92%8C%E8%87%AA%E5%87%8F/" data-id="ckgaps4yw0000dojl4z7p2a44" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-四则运算中‘+’的用法" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/07/24/%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97%E4%B8%AD%E2%80%98+%E2%80%99%E7%9A%84%E7%94%A8%E6%B3%95/" class="article-date">
+  <time datetime="2020-07-24T09:52:02.000Z" itemprop="datePublished">2020-07-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="四则运算中‘-’的用法"><a href="#四则运算中‘-’的用法" class="headerlink" title="四则运算中‘+’的用法"></a>四则运算中‘+’的用法</h1><hr>
+<ul>
+<li>四则运算中加号‘+’的用法<ul>
+<li><ol>
+<li>对于数值来说，就是普通的相加</li>
+</ol>
+</li>
+<li><ol start="2">
+<li>对于字符型char来说，在运算之前会变为int型，然后再计算</li>
+</ol>
+</li>
+<li><ol start="3">
+<li>对于字符串String来说，加号代表<strong>字符串连接操作</strong>，任何数据类型和字符串连接时，都会变为字符串。</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo05Plus</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		</span><br><span class="line">		<span class="comment">//定义一个字符串</span></span><br><span class="line">		String str1 = <span class="string">&quot;Hello&quot;</span>;</span><br><span class="line">		System.out.println(str1);</span><br><span class="line">		</span><br><span class="line">		<span class="comment">//可以这么写，指的是字符串的连接</span></span><br><span class="line">		System.out.println(<span class="string">&quot;Hello&quot;</span> + <span class="string">&quot;World&quot;</span>);<span class="comment">//HelloWorld</span></span><br><span class="line">		</span><br><span class="line">		String str2 = <span class="string">&quot;Java&quot;</span>;</span><br><span class="line">		<span class="comment">//String + int --&gt;String</span></span><br><span class="line">		System.out.println(str2 + <span class="number">20</span>);<span class="comment">//Java20</span></span><br><span class="line">		</span><br><span class="line">		<span class="comment">//优先级问题</span></span><br><span class="line">		System.out.println(str2 + <span class="number">20</span> + <span class="number">30</span>);<span class="comment">//Java2030</span></span><br><span class="line">		</span><br><span class="line">		System.out.println(str2 + (<span class="number">20</span> +<span class="number">30</span>));<span class="comment">//Java50</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>运行结果<br>Hello<br>HelloWorld<br>Java20<br>Java2030<br>Java50</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/07/24/%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97%E4%B8%AD%E2%80%98+%E2%80%99%E7%9A%84%E7%94%A8%E6%B3%95/" data-id="ckgaps4zq000adojlddmohpdm" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-# 运算符" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/07/24/#%20%E8%BF%90%E7%AE%97%E7%AC%A6/" class="article-date">
+  <time datetime="2020-07-24T08:24:11.000Z" itemprop="datePublished">2020-07-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h1><hr>
+<p>运算符：进行特定操作的符号。例如：+、-、*、/</p>
+<p>表达式：用运算符连起来的式子。例如：20 + 5、a + b</p>
+<p>四则运算：</p>
+<ol>
+<li>加：+</li>
+<li>减：-</li>
+<li>乘：*</li>
+<li>除：/   （正斜杠）<br> 被除数 / 除数 = 商。。。。余数<br> 对于一个整数的除法表达式，除法用的是整数，整数除以整数，结果还是整数，只看商，不看余数</li>
+</ol>
+<ul>
+<li>取模：取余数，%<br>  只有对于整数的除法取模才有意义。</li>
+</ul>
+<p>注意事项：</p>
+<ol>
+<li>一旦运算当中有不同类型数据，结果是数据类型范围大的</li>
+</ol>
+<hr>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo04Operator</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		</span><br><span class="line">		<span class="comment">//两个常量之间数学运算</span></span><br><span class="line">		System.out.println(<span class="number">20</span> +<span class="number">30</span>);</span><br><span class="line">		</span><br><span class="line">		<span class="comment">//两个变量之间数学运算</span></span><br><span class="line">		<span class="keyword">int</span> a = <span class="number">20</span>;</span><br><span class="line">		<span class="keyword">int</span> b = <span class="number">30</span>;</span><br><span class="line">		System.out.println(a - b);<span class="comment">//-10</span></span><br><span class="line">		</span><br><span class="line">		<span class="comment">//变量和常量之间可以混合使用</span></span><br><span class="line">		System.out.println(a * <span class="number">10</span>);<span class="comment">//200</span></span><br><span class="line">		</span><br><span class="line">		<span class="keyword">int</span> x = <span class="number">10</span>;</span><br><span class="line">		<span class="keyword">int</span> y = <span class="number">3</span>;</span><br><span class="line">		<span class="keyword">int</span> result1 = x / y;</span><br><span class="line">		System.out.println(result1);</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">int</span> result2 = x % y;</span><br><span class="line">		System.out.println(result2);<span class="comment">//1</span></span><br><span class="line">		</span><br><span class="line">		<span class="comment">//int + double --&gt; double + double --.double</span></span><br><span class="line">		<span class="keyword">double</span> result3 = x + <span class="number">2.5</span>;</span><br><span class="line">		System.out.println(result3);</span><br><span class="line">		</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<hr>
+<p>运行结果<br>50<br>-10<br>200<br>3<br>1<br>12.5</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/07/24/#%20%E8%BF%90%E7%AE%97%E7%AC%A6/" data-id="ckgaps4zk0007dojlea3xccyc" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-# ASCII码" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/07/24/#%20ASCII%E7%A0%81/" class="article-date">
+  <time datetime="2020-07-24T01:12:16.000Z" itemprop="datePublished">2020-07-24</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="ASCII码"><a href="#ASCII码" class="headerlink" title="ASCII码"></a>ASCII码</h1><hr>
+<p>编码表</p>
+<ol>
+<li>ASCII码表：美国信息交换标准代码</li>
+<li>Unicode码表：万国码，1~127和ASCII一样，之后包含更多字符</li>
+</ol>
+<ul>
+<li>三个重要ASCII码<br>48–&gt;0<br>65–&gt;A<br>97–&gt;a</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo02DataTypechar</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">char</span> zifu1 = <span class="string">&#x27;1&#x27;</span>;</span><br><span class="line">		System.out.println(zifu1 + <span class="number">0</span>);<span class="comment">//49</span></span><br><span class="line">		</span><br><span class="line">		<span class="keyword">char</span> zifu2 = <span class="string">&#x27;A&#x27;</span>;<span class="comment">//其实计算机保存的是65</span></span><br><span class="line">		</span><br><span class="line">		<span class="keyword">char</span> zifu3 = <span class="string">&#x27;c&#x27;</span>;</span><br><span class="line">		<span class="comment">//char --&gt;int ,由小到大</span></span><br><span class="line">		<span class="comment">//发生了自动类型转换</span></span><br><span class="line">		<span class="keyword">int</span> num = zifu3;</span><br><span class="line">		System.out.println(num);<span class="comment">//99</span></span><br><span class="line">		</span><br><span class="line">		<span class="keyword">char</span> zifu4 = <span class="string">&#x27;中&#x27;</span>;</span><br><span class="line">		System.out.println(zifu4 + <span class="number">0</span>);<span class="comment">//20013</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>输出结果：<br>49<br>99<br>20013</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/07/24/#%20ASCII%E7%A0%81/" data-id="ckgaps4za0001dojlcqr78cfy" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-数据类型：变量" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/07/23/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%EF%BC%9A%E5%8F%98%E9%87%8F/" class="article-date">
+  <time datetime="2020-07-23T08:47:48.000Z" itemprop="datePublished">2020-07-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="数据类型：变量"><a href="#数据类型：变量" class="headerlink" title="数据类型：变量"></a>数据类型：变量</h1><hr>
+<ul>
+<li><p>变量：程序运行时，内容可以改变的量</p>
+</li>
+<li><p>怎样创建一个变量：</p>
+<ul>
+<li>数据类型 +变量名</li>
+<li>变量名=数值//赋值</li>
+</ul>
+</li>
+<li><p>一步到位：</p>
+<ul>
+<li>数据类型+变量名=数值//创建变量同时直接赋值</li>
+</ul>
+</li>
+</ul>
+<hr>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Demo02Variable</span> </span>&#123;</span><br><span class="line">		<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">			<span class="comment">//创建一个变量</span></span><br><span class="line">			<span class="comment">//格式：数据类型 变量名称；</span></span><br><span class="line">			<span class="keyword">int</span> num1;</span><br><span class="line">			<span class="comment">//向变量里存数据</span></span><br><span class="line">			<span class="comment">//格式：变量名 = 数值</span></span><br><span class="line">			num1 = <span class="number">5</span>;</span><br><span class="line">			System.out.println(num1);</span><br><span class="line">			</span><br><span class="line">			<span class="comment">//改变变量中的数字，变成新的数字</span></span><br><span class="line">			num1 = <span class="number">10</span>;</span><br><span class="line">			System.out.println(num1);</span><br><span class="line">			</span><br><span class="line">			<span class="comment">//一步到位格式</span></span><br><span class="line">			<span class="comment">//数据类型 变量名 = 数值</span></span><br><span class="line">			<span class="keyword">int</span> num2 = <span class="number">15</span>;</span><br><span class="line">			System.out.println(num2);</span><br><span class="line">			</span><br><span class="line">			num2 = <span class="number">20</span>;</span><br><span class="line">			System.out.println(num2);</span><br><span class="line">			</span><br><span class="line">			System.out.println(<span class="string">&quot;=================&quot;</span>);</span><br><span class="line">			</span><br><span class="line">			<span class="keyword">byte</span> num3 = <span class="number">30</span>;<span class="comment">//注意右侧数值不能超过左侧数据类型</span></span><br><span class="line">			System.out.println(num3);</span><br><span class="line">			</span><br><span class="line">			<span class="comment">//byte num4 = 400;//超出了byte数据范围，会报错！！</span></span><br><span class="line">			<span class="comment">//System.out.println(num4);</span></span><br><span class="line">			</span><br><span class="line">			<span class="keyword">short</span> num5 = <span class="number">50</span>;</span><br><span class="line">			System.out.println(num5);</span><br><span class="line">			</span><br><span class="line">			<span class="keyword">long</span> num6 = <span class="number">100000000L</span>;<span class="comment">//这里要加后缀L，不然会报错！！</span></span><br><span class="line">			System.out.println(num6);</span><br><span class="line">			</span><br><span class="line">			<span class="keyword">float</span> num7 = <span class="number">2.5F</span>;<span class="comment">//要有后缀F</span></span><br><span class="line">			System.out.println(num7);</span><br><span class="line">			</span><br><span class="line">			<span class="keyword">double</span> num8  =<span class="number">3.1415926</span>;</span><br><span class="line">			System.out.println(num8);</span><br><span class="line">			</span><br><span class="line">			<span class="keyword">char</span> zifu1 = <span class="string">&#x27;A&#x27;</span>;</span><br><span class="line">			System.out.println(zifu1);</span><br><span class="line">			</span><br><span class="line">			zifu1 = <span class="string">&#x27;中&#x27;</span>;</span><br><span class="line">			System.out.println(zifu1);</span><br><span class="line">			</span><br><span class="line">			<span class="keyword">boolean</span> var1 = <span class="keyword">true</span>;</span><br><span class="line">			System.out.println(var1);</span><br><span class="line">			</span><br><span class="line">			var1 = <span class="keyword">false</span>;</span><br><span class="line">			System.out.println(var1);</span><br><span class="line">			</span><br><span class="line">			<span class="comment">//将一个变量的数值内容赋给另一个变量</span></span><br><span class="line">			<span class="keyword">boolean</span> var2 = var1;</span><br><span class="line">			System.out.println(var2);</span><br><span class="line">		&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>输出结果<br>5<br>10<br>15<br>20</li>
+</ul>
+<p>30<br>50<br>100000000<br>2.5<br>3.1415926<br>A<br>中<br>true<br>false<br>false</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/07/23/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%EF%BC%9A%E5%8F%98%E9%87%8F/" data-id="ckgaps4zu000ddojl0zlf9ku6" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-数据类型" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/07/23/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" class="article-date">
+  <time datetime="2020-07-23T07:32:41.000Z" itemprop="datePublished">2020-07-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="数据类型：常量"><a href="#数据类型：常量" class="headerlink" title="数据类型：常量"></a>数据类型：常量</h1><hr>
+<p>基本数据类型</p>
+<blockquote>
+<p>整数<br>浮点型<br>字符<br>布尔</p>
+</blockquote>
+<p>引用数据类型</p>
+<blockquote>
+<p>类<br>数组<br>接口<br>Lambda</p>
+</blockquote>
+<hr>
+<ul>
+<li>四类八种数据类型表格<table>
+<thead>
+<tr>
+<th align="center">数据类型</th>
+<th align="center">关键字</th>
+<th align="center">内存占用</th>
+<th align="center">取值范围</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">字节型</td>
+<td align="center">byte</td>
+<td align="center">1字节</td>
+<td align="center">-128~127</td>
+</tr>
+<tr>
+<td align="center">短整型</td>
+<td align="center">short</td>
+<td align="center">2字节</td>
+<td align="center">-32768~32767</td>
+</tr>
+<tr>
+<td align="center">整形</td>
+<td align="center">int</td>
+<td align="center">4字节</td>
+<td align="center">。</td>
+</tr>
+<tr>
+<td align="center">长整型</td>
+<td align="center">long</td>
+<td align="center">8字节</td>
+<td align="center">。</td>
+</tr>
+<tr>
+<td align="center">单精度浮点型</td>
+<td align="center">float</td>
+<td align="center">4字节</td>
+<td align="center">。</td>
+</tr>
+<tr>
+<td align="center">双精度浮点型</td>
+<td align="center">double</td>
+<td align="center">8字节</td>
+<td align="center">。</td>
+</tr>
+<tr>
+<td align="center">字符型</td>
+<td align="center">char</td>
+<td align="center">2字节</td>
+<td align="center">。</td>
+</tr>
+<tr>
+<td align="center">布尔型</td>
+<td align="center">boolean</td>
+<td align="center">1字节</td>
+<td align="center">。</td>
+</tr>
+</tbody></table>
+</li>
+</ul>
+<hr>
+<p><strong>注意事项</strong><br><strong>1.字符串不是基本类型，而是引用类型</strong><br><strong>2. 浮点型是近似值</strong><br><strong>3.数据范围与字节数不一定相关，比如float型4字节却比long类型8字节范围大</strong><br><strong>4. 浮点数默认类型double，要想用float加后缀F，整型默认int型，想用long型加后缀L</strong></p>
+<p>18</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/07/23/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" data-id="ckgaps4zs000cdojl1p9a65vn" class="article-share-link">Share</a>
       
       
     </footer>
@@ -114,6 +535,11 @@
 
   
 
+
+  <nav id="page-nav">
+    
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
+  </nav>
 
 </section>
         
@@ -131,7 +557,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/10/">October 2020</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/07/">July 2020</a></li></ul>
     </div>
   </div>
 
@@ -144,7 +570,23 @@
       <ul>
         
           <li>
-            <a href="/2020/10/11/hello-world/">Hello World</a>
+            <a href="/2020/07/25/%E6%96%B9%E6%B3%95/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/07/25/#%20%E4%B8%89%E5%85%83%E8%BF%90%E7%AE%97%E7%AC%A6/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/07/25/#%20%E9%80%BB%E8%BE%91%E8%BF%90%E7%AE%97%E7%AC%A6/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/07/24/#%20%E8%B5%8B%E5%80%BC%E8%BF%90%E7%AE%97%E7%AC%A6/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/07/24/#%20%E8%87%AA%E5%A2%9E%E5%92%8C%E8%87%AA%E5%87%8F/">(no title)</a>
           </li>
         
       </ul>
